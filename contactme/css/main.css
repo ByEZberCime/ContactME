@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #080808;
+}
+
+.container {
+    margin: 0 0 0 4%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.navigation-content {
+    width: 96%;
+    border-radius: 0 0 20px 20px;
+    background-color: #1B1B1B;
+}
+
+.navigation-content nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 24px 95.46px 28px 95px;
+    align-items: center;
+}
+
+.navigation-buttons ul {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+
+.navigation-buttons ul li a {
+    color: #9C9C9C;
+    font-family: 'IBM Plex Mono', monospace;
+    letter-spacing: 1%;
+}
+
+.navigation-contacts ul {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.navigation-contacts ul li a svg {
+    width: 50px;
+    height: 34px;
+}
+
+.contact-me {
+    display: flex;
+    padding: 98px 0 0 0;
+    height: 592px;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.center-content {
+    padding: 0 0 130px 0;
+}
+
+.center-content h1 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 44px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.center-content p {
+    width: 492px;
+    color: #9C9C9C;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+    padding: 10px 0 30px 0;
+}
+
+#contact_me {
+    padding: 21px 64px 21px 64px;
+    width: 307.89px;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #62BA1B;
+    box-shadow: 0 3px 0 rgb(98 186 27 / 0.56);
+    cursor: pointer;
+    background: linear-gradient(#3F8E00, #62BA1B);
+}
+
+#contact_me:hover {
+    border: 1px solid #1b1d1b;
+    box-shadow: 0 3px 0 rgb(101 101 101 / 0.56);
+    background: #242424;
+}
+
+.contact-worked-category h4 {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #FFFFFF;
+
+}
+
+.center-content a {
+    color: #FFFFFF;
+}
+
+.contact-profile-content {
+    display: flex;
+    width: 40%;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    align-items: center;
+}
+
+.contact-profile-content img {
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+}
+
+.dev-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.dev-info ul {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dev-info ul li {
+    background-color: #1b1719;
+    color: #383838;
+    position: relative;
+    padding: 25px 120px 25px 120px;
+    font-family: 'IBM Plex Mono', monospace;
+    border-radius: 40px;
+    font-size: 24px;
+    text-align: center;
+    align-items: center;
+}
+
+#dropbox,#database,#bootstrap,#figma {
+    height: 50px;
+    width: 40px;
+    position: absolute;
+    left: 15%;
+    top: 20%;
+}
